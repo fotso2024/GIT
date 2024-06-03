@@ -1,0 +1,4 @@
+aws cloudformation create-stack \
+  --stack-name siha-first-stack \
+  --template-body file://"D:\AWS TRAINING\devoir\GIT\gitlocal\fotso2024-EC2- template.yaml" \
+  --region us-west-1
